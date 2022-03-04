@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "2277e097-d503-462d-8345-2c5d8b9c9c38",
+		"_postman_id": "3090d646-97e5-48b9-b01e-e88447a6001e",
 		"name": "Proyecto Files",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -44,13 +44,13 @@
 								{
 									"key": "file",
 									"type": "file",
-									"src": "/C:/Users/deluna.rodan21/Documents/dam/ad-psp/repos/MIARMA-ProyectoADPSP-Backend/Postman collection/files/guest.png"
+									"src": "/C:/Users/segura.vepab21/Desktop/Miarma_App/miarma/images/avatar.jpg"
 								},
 								{
 									"key": "user",
 									"contentType": "application/json",
 									"type": "file",
-									"src": "/C:/Users/deluna.rodan21/Documents/dam/ad-psp/repos/MIARMA-ProyectoADPSP-Backend/Postman collection/json/crear_perfil1.json"
+									"src": "/C:/Users/segura.vepab21/Desktop/MIARAMA_APP_BACKEND/Postman collection/json/crear_perfil1.json"
 								}
 							]
 						},
@@ -105,13 +105,13 @@
 								{
 									"key": "file",
 									"type": "file",
-									"src": "/C:/Users/deluna.rodan21/Documents/dam/ad-psp/repos/MIARMA-ProyectoADPSP-Backend/Postman collection/files/guest.png"
+									"src": "/C:/Users/pablo/OneDrive/Desktop/Miarma_Flutter/MIARMA-ProyectoADPSP-Backend/Postman collection/files/avatarUpdated.jpg"
 								},
 								{
 									"key": "user",
 									"contentType": "application/json",
 									"type": "file",
-									"src": "/C:/Users/deluna.rodan21/Documents/dam/ad-psp/repos/MIARMA-ProyectoADPSP-Backend/Postman collection/json/crear_perfil2.json"
+									"src": "/C:/Users/pablo/OneDrive/Desktop/Miarma_Flutter/MIARMA-ProyectoADPSP-Backend/Postman collection/json/crear_perfil2.json"
 								}
 							]
 						},
@@ -152,7 +152,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"nick\": \"DaniDLR\",\n    \"password\": \"qwerty\"\n}",
+							"raw": "{\n    \"nick\": \"PabloSeg\",\n    \"password\": \"Pablo@123\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -196,7 +196,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"nick\": \"UsuarioPrueba\",\n    \"password\": \"qwerty\"\n}",
+							"raw": "{\n    \"nick\": \"MiguelCamposDev\",\n    \"password\": \"Miguel@123\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -263,7 +263,7 @@
 						"method": "POST",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/follow/DaniDLR",
+							"raw": "http://localhost:8080/follow/MiguelCamposDev",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -271,7 +271,7 @@
 							"port": "8080",
 							"path": [
 								"follow",
-								"DaniDLR"
+								"MiguelCamposDev"
 							]
 						}
 					},
@@ -396,13 +396,13 @@
 									"key": "file",
 									"contentType": "",
 									"type": "file",
-									"src": "/C:/Users/deluna.rodan21/Documents/dam/ad-psp/repos/MIARMA-ProyectoADPSP-Backend/Postman collection/files/landscape.jpg"
+									"src": "/C:/Users/segura.vepab21/Desktop/Miarma_App/miarma/images/publicacion.jpg"
 								},
 								{
 									"key": "post",
 									"contentType": "application/json",
 									"type": "file",
-									"src": "/C:/Users/deluna.rodan21/Documents/dam/ad-psp/repos/MIARMA-ProyectoADPSP-Backend/Postman collection/json/crear_post_publico.json"
+									"src": "/C:/Users/segura.vepab21/Desktop/MIARMA-ProyectoADPSP-Backend/Postman collection/json/crear_post_publico.json"
 								}
 							]
 						},
@@ -443,13 +443,13 @@
 									"key": "file",
 									"contentType": "",
 									"type": "file",
-									"src": "/C:/Users/DaniDLR19/Downloads/istockphoto-1280884795-612x612.jpg"
+									"src": "/C:/Users/segura.vepab21/Desktop/MIARAMA_APP_BACKEND/Postman collection/files/landscape.jpg"
 								},
 								{
 									"key": "post",
 									"contentType": "application/json",
 									"type": "file",
-									"src": "/C:/Users/deluna.rodan21/Documents/dam/ad-psp/repos/MIARMA-ProyectoADPSP-Backend/Postman collection/json/crear_post_privado.json"
+									"src": "/C:/Users/segura.vepab21/Desktop/MIARAMA_APP_BACKEND/Postman collection/json/crear_post_privado.json"
 								}
 							]
 						},
@@ -698,7 +698,7 @@
 						"method": "POST",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/post/UsuarioPrueba",
+							"raw": "http://localhost:8080/post/Miguel",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -706,7 +706,7 @@
 							"port": "8080",
 							"path": [
 								"post",
-								"UsuarioPrueba"
+								"Miguel"
 							]
 						}
 					},

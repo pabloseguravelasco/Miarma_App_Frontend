@@ -20,7 +20,6 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
 import javax.validation.Valid;
-import java.time.LocalDate;
 
 @RestController
 @RequiredArgsConstructor
@@ -48,14 +47,9 @@ public class AuthController {
 
     @PostMapping("/auth/register")
     public ResponseEntity<GetUsuarioDto> create(@RequestPart("file") MultipartFile file,
-                                                @RequestParam("nombre") String nombre ,
-                                                @RequestParam("nick")  String nick,
-                                                @RequestParam("email")  String email ,
-                                                @RequestParam("password")  String password,
-                                                @RequestParam("password2")  String password2,
-                                                @RequestParam("fechaNacimiento") LocalDate fechaNacimiento) throws Exception {
+                                                @RequestPart("user") @Valid CreateUsuarioDto newUsuario) throws Exception {
 
-        Usuario saved = userService.save(nombre, nick, email, password, password2, file, fechaNacimiento);
+        Usuario saved = userService.save(newUsuario,file);
 
         if(saved == null)
             return ResponseEntity.badRequest().build();

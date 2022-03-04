@@ -51,7 +51,6 @@ public class Usuario implements UserDetails {
     @Column(unique = true,updatable = false)
     private String email;
 
-
     private LocalDate fechaNacimiento;
 
     private String avatar;

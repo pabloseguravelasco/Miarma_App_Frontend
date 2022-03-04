@@ -8,15 +8,13 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.multipart.MultipartFile;
-
-import java.time.LocalDate;
 import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
 
 public interface UsuarioService {
 
-    Usuario save(String nombre, String nick, LocalDate fechaNaciemiento, String email, String password, String password2, MultipartFile file) throws Exception;
+    Usuario save(CreateUsuarioDto createUsuarioDto, MultipartFile file) throws Exception;
 
     Usuario edit(Usuario usuarioAEditar, CreateUsuarioDto usuarioEditado, MultipartFile file) throws Exception;
 
